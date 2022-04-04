@@ -146,6 +146,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('contact') }}">Contact Us</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('privacy-policy') }}">Privacy Policy</a>
+                    </li>
                 </ul>
             </div>
         </div>

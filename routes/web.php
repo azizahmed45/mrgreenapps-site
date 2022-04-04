@@ -48,3 +48,7 @@ Route::get('/pricing', function () {
 Route::get('/coming-soon', function () {
     return view('pages.coming-soon');
 })->name('coming-soon');
+
+Route::get('/privacy-policy', function () {
+    return view('pages.privacy-policy');
+})->name('privacy-policy');
